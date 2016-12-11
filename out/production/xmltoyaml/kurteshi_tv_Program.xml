@@ -1,0 +1,196 @@
+<xml>
+    <!-- Assignment 3: Data Exchange Formats -->
+    <!-- Subject: Multimedia Systems - 1  -->
+    <!-- Member: Atdhe Kurteshi -->
+
+
+    <orf>
+        <!-- ==================== TV Program Categories ==================== -->
+
+        <categories>
+            <category>
+                <ca_id>ca1</ca_id>
+                <c_name>information</c_name>
+            </category>
+            <category>
+                <ca_id>ca2</ca_id>
+                <c_name>magazin</c_name>
+            </category>
+            <category>
+                <ca_id>ca3</ca_id>
+                <c_name>doku</c_name>
+            </category>
+            <category>
+                <ca_id>ca4</ca_id>
+                <c_name>kultur</c_name>
+            </category>
+            <category>
+                <ca_id>ca5</ca_id>
+                <c_name>kinder</c_name>
+            </category>
+            <category>
+                <ca_id>ca6</ca_id>
+                <c_name>serie</c_name>
+            </category>
+            <category>
+                <ca_id>ca7</ca_id>
+                <c_name>film</c_name>
+            </category>
+        </categories>
+
+        <!-- ==================== Channels Categories ==================== -->
+
+        <channels>
+            <channel>
+                <c_id>ORF eins</c_id>
+                <lang_id>de_01</lang_id>
+                <display-show>magazin</display-show>
+            </channel>
+            <channel>
+                <c_id>"ORF 2</c_id>
+                <lang_id>de_01</lang_id>
+                <display-show>information</display-show>
+            </channel>
+            <channel>
+                <c_id>ORF III Kultur und Information</c_id>
+                <lang_id>de_01</lang_id>
+                <display-show>doku</display-show>
+            </channel>
+            <channel>
+                <c_id>ORF Sport</c_id>
+                <lang_id>de_01</lang_id>
+                <display-show>sport</display-show>
+            </channel>
+            <channel>
+                <c_id>ORF Film</c_id>
+                <lang_id>de_01</lang_id>
+                <display-show>film</display-show>
+            </channel>
+            <channel>
+                <c_id>ORF Film</c_id>
+                <lang_id>de_01</lang_id>
+                <display-show>film</display-show>
+            </channel>
+        </channels>
+
+        <!-- ==================== Times Categories ==================== -->
+
+        <times>
+            <time>
+                <tim_id>VO</tim_id>
+                <time_name>vormitag</time_name>
+            </time>
+            <time>
+                <tim_id>NA</tim_id>
+                <time_name>nachmitag</time_name>
+            </time>
+            <time>
+                <tim_id>VOR</tim_id>
+                <time_name>vorabend</time_name>
+            </time>
+            <time>
+                <tim_id>PRI</tim_id>
+                <time_name>primetime</time_name>
+            </time>
+            <time>
+                <tim_id>NA</tim_id>
+                <time_name>nacht</time_name>
+            </time>
+        </times>
+
+        <!-- ==================== Genders Categories ==================== -->
+
+        <genders>
+            <gender>
+                <ge_id>UN</ge_id>
+                <g_name>unterhaltung</g_name>
+            </gender>
+            <gender>
+                <ge_id>ZE</ge_id>
+                <g_name>zeichentrick</g_name>
+            </gender>
+            <gender>
+                <ge_id>KI</ge_id>
+                <g_name>krimi</g_name>
+            </gender>
+        </genders>
+
+        <!-- ==================== Languages Categories ==================== -->
+
+        <languages>
+            <language>
+                <lang_id>en_01</lang_id>
+                <l_name>en</l_name>
+            </language>
+            <language>
+                <lang_id>de_01</lang_id>
+                <l_name>de</l_name>
+            </language>
+        </languages>
+
+        <!-- ==================== Audios Categories ==================== -->
+
+        <audios>
+            <audio>
+                <a_id>A01</a_id>
+                <a_type>stereo</a_type>
+            </audio>
+            <audio>
+                <a_id>A02</a_id>
+                <a_type>stereo-2</a_type>
+            </audio>
+        </audios>
+
+        <!-- ==================== Videos Categories ==================== -->
+
+        <videos>
+            <video>
+                <v_id>V01</v_id>
+                <v_aspect>16:9</v_aspect>
+            </video>
+            <video>
+                <v_id>V02</v_id>
+                <v_aspect>4:3</v_aspect>
+            </video>
+        </videos>
+
+        <!-- ==================== Programmes Part ==================== -->
+
+        <programmes>
+            <programme>
+                <c_id>ORF 1</c_id>
+                <tim_id>PRI</tim_id>
+                <ge_id>ZE</ge_id>
+                <lang_id>en_01</lang_id>
+                <title>Lilyhammer 1</title>
+                <credits>
+                    <director>A.Dir</director>
+                    <actor>Antoni.L</actor>
+                </credits>
+                <a_id>A01</a_id>
+                <v_id>V01</v_id>
+                <date>01.12.2016</date>
+                <rating>
+                    <value>VPS</value>
+                </rating>
+            </programme>
+            <programme>
+                <c_id>ORF 2</c_id>
+                <tim_id>PRI</tim_id>
+                <ge_id>UN</ge_id>
+                <lang_id>en_01</lang_id>
+                <title>Lilyhammer s2</title>
+                <credits>
+                    <director>B.Dir</director>
+                    <actor>Johan.P</actor>
+                </credits>
+                <a_id>A01</a_id>
+                <v_id>V01</v_id>
+                <date>24.12.2016</date>
+                <rating>
+                    <value>VPS</value>
+                </rating>
+            </programme>
+        </programmes>
+    </orf>
+</xml>

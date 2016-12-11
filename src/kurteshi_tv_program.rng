@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar 
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="xml" xmlns="http://relaxng.org/ns/structure/1.0">
+         <zeroOrMore>
+          <element name="orf">
+             <zeroOrMore>
+                <element name="categories">
+                  <zeroOrMore>
+                    <element name="category">
+                        <zeroOrMore>
+                            <element name="ca_id">
+                                <text/>
+                             </element>
+                            <element name="c_name">
+                                    <text/>
+                             </element>
+                        </zeroOrMore>
+                    </element>
+                  </zeroOrMore>
+                </element>
+                <element name="channels">
+                   <zeroOrMore>
+                    <element name="channel">
+                        <zeroOrMore>
+                            <element name="c_id">
+                                <text/>
+                            </element>
+                            <element name="lang_id">
+                                <text/>
+                            </element>
+                            <element name="display-show">
+                                <text/>
+                            </element>
+                        </zeroOrMore>
+                    </element>
+                   </zeroOrMore>
+                </element>
+                <element name="times">
+                    <zeroOrMore>
+                    <element name="time">
+                        <zeroOrMore>
+                            <element name="tim_id">
+                                <text/>
+                            </element>
+                            <element name="time_name">
+                                <text/>
+                            </element>
+                        </zeroOrMore>
+                    </element>
+                   </zeroOrMore>
+                </element>
+                <element name="genders">
+                   <zeroOrMore>
+                    <element name="gender">
+                        <zeroOrMore>
+                            <element name="ge_id">
+                                <text/>
+                            </element>
+                            <element name="g_name">
+                                <text/>
+                            </element>
+                        </zeroOrMore>
+                    </element>
+                   </zeroOrMore>
+                </element>
+                <element name="languages">
+                   <zeroOrMore>
+                    <element name="language">
+                        <zeroOrMore>
+                            <element name="lang_id">
+                                <text/>
+                            </element>
+                            <element name="l_name">
+                                <text/>
+                            </element>
+                        </zeroOrMore>
+                    </element>
+                   </zeroOrMore>
+                </element>
+                <element name="audios">
+                  <zeroOrMore>
+                    <element name="audio">
+                        <zeroOrMore>
+                            <element name="a_id">
+                                <text/>
+                            </element>
+                            <element name="a_type">
+                                <text/>
+                            </element>
+                        </zeroOrMore>
+                    </element>
+                 </zeroOrMore>
+                </element>
+                <element name="videos">
+                  <zeroOrMore>
+                    <element name="video">
+                        <zeroOrMore>
+                            <element name="v_id">
+                                <text/>
+                            </element>
+                            <element name="v_aspect">
+                                <text/>
+                            </element>
+                        </zeroOrMore>
+                    </element>
+                  </zeroOrMore>
+                </element>
+                <element name="programmes">
+                   <zeroOrMore>
+                    <element name="programme">
+                        <zeroOrMore>
+                            <element name="c_id">
+                                <text/>
+                            </element>
+                            <element name="tim_id">
+                                <text/>
+                            </element>
+                            <element name="ge_id">
+                                <text/>
+                            </element>
+                            <element name="lang_id">
+                                <text/>
+                            </element>
+                            <element name="title">
+                                <text/>
+                            </element>
+                            <element name="credits">
+                                <zeroOrMore>
+                                    <element name="director">
+                                        <text/>
+                                    </element>
+                                    <element name="actor">
+                                        <text/>
+                                    </element>
+                                </zeroOrMore>
+                            </element>
+                            <element name="a_id">
+                                <text/>
+                            </element>
+                            <element name="v_id">
+                                <text/>
+                            </element>
+                            <element name="date">
+                                <text/>
+                            </element>
+                            <element name="rating">
+                                <zeroOrMore>
+                                    <element name="value">
+                                        <text/>
+                                    </element>
+                                </zeroOrMore>
+                            </element>
+                            
+                        </zeroOrMore>
+                    </element>
+                  </zeroOrMore>
+                </element>
+             </zeroOrMore>  
+        </element>
+     </zeroOrMore>     
+        </element>
+    </start>
+</grammar>
