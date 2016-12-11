@@ -13,17 +13,11 @@ import java.util.Map;
 
 public class Main {
 
-    //*****References Used*****/
 
-    //http://stackoverflow.com/questions/23297645/how-to-dump-yaml-object-into-filea
-    //https://github.com/FasterXML/jackson-dataformat-yaml
-    //https://www.google.at/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=xml+to+yaml+mappers+java
-    //***/
 
     /** Paths by default.
-     *  private static final String FileName="kurteshi_tv_Program.xml";
-     *  public static String path="C:\\Users\\Atdhe\\IdeaProjects\\xmltoyaml\\src\\kurteshi_tv_Program.xml";
-     *  public static String pathToWrite="C:\\Users\\Atdhe\\IdeaProjects\\xmltoyaml\\src\\kurteshi_tv_program.yaml";
+     *  public static String path="YourPathOfXmlFile";
+     *  public static String pathToWrite="YourPathOfYamlFileToWrite";
      */
 
     /**
@@ -35,8 +29,8 @@ public class Main {
 
     public static int PRETTY_PRINT_INDENT_FACTOR = 4;
 
-    public static String path="C:\\Users\\Atdhe\\IdeaProjects\\xmltoyaml\\src\\kurteshi_tv_Program.xml";
-    public static String pathToWrite="C:\\Users\\Atdhe\\IdeaProjects\\xmltoyaml\\src\\kurteshi_tv_program.yaml";
+    public static String path="YourPathOfXmlFile";
+    public static String pathToWrite="YourPathOfYamlFileToWrite";
 
     public static String yamlConversion(String path,String pathToWrite){
 
